@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+  border: 10px solid rgb(46, 64, 165);
+}
+.highScoreCountry {
+  border: 5px solid rgb(135, 148, 62);
+}
+.table {
+  border: 2px solid rgb(84, 85, 84);
+}
+.table tr :nth-child(2) {
+  color: rgb(228, 116, 25);
+}
+.countryTable {
+  border: 10px solid rgb(240, 97, 14);
+  margin-top: 2%;
+}
+.world-wide {
+  height: 75%;
+  border: 10px solid rgb(14, 116, 14);
+  background-color: white;
+}
+.world-wide table {
+  border: 10px solid rgb(85, 85, 84);
+}
+.world-wide table tr {
+  border: 3px solid rgb(85, 85, 84);
+  padding-top: 50px;
+}
+.world-wide table tr :nth-child(2) {
+  color: rgb(228, 116, 25);
+}
+
